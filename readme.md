@@ -55,13 +55,13 @@ langgraph deploy
 
 ### Flight Search
 ```
-User: "Find flights from NYC to London on December 15th"
+User: "Find flights from NYC to London on December 15th, 2025"
 Agent: [Searches real-time flight data and presents options]
 ```
 
 ### Hotel Booking
 ```
-User: "Find 4-star hotels in Paris for January 10-15"
+User: "Find 4-star hotels in Paris for Jul, 10-15 2015 for 1 adult"
 Agent: [Shows available hotels with prices and amenities]
 ```
 
@@ -89,10 +89,6 @@ Agent: [Creates detailed day-by-day itinerary with attractions, timing, and tips
 - **Hotel Agent**: Manages accommodation search and recommendations
 - **Itinerary Agent**: Creates comprehensive travel plans
 
-### Tools
-- **SERP API**: Google Flights and Hotels search
-- **Tavily Search**: Real-time web search for travel information
-- **LangGraph Memory**: Maintains conversation context
 
 ## Environment Variables
 
@@ -102,30 +98,8 @@ Agent: [Creates detailed day-by-day itinerary with attractions, timing, and tips
 | `TAVILY_API_KEY` | Tavily search API key | Yes |
 | `SERPAPI_API_KEY` | SERP API key for Google search | Yes |
 
-## Deployment
 
-### LangGraph Cloud
-1. Ensure `langgraph.json` is configured correctly
-2. Set environment variables in LangGraph Cloud dashboard
-3. Deploy using `langgraph deploy`
 
-### Local Development
-```bash
-python travel_agent.py
-```
-
-## Customization
-
-### Adding New Agents
-1. Create agent prompt in `_setup_agents()`
-2. Add agent node function
-3. Update router logic
-4. Add to workflow graph
-
-### Modifying Tools
-- Update tool functions in `_setup_tools()`
-- Modify agent prompts to reference new tools
-- Update tool binding in agent setup
 
 ## Troubleshooting
 
@@ -134,11 +108,7 @@ python travel_agent.py
 2. **Import Errors**: Run `pip install -r requirements.txt`
 3. **Memory Issues**: Check LangGraph checkpoint configuration
 
-### Debug Mode
-Set environment variable for verbose logging:
-```bash
-export LANGCHAIN_VERBOSE=true
-```
+
 
 
 
