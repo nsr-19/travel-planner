@@ -41,16 +41,6 @@ Get your API keys:
 python travel_agent.py
 ```
 
-### 4. Deploy to LangGraph Cloud
-
-```bash
-# Install LangGraph CLI
-pip install langgraph-cli
-
-# Deploy to LangGraph Cloud
-langgraph deploy
-```
-
 ## Usage Examples
 
 ### Flight Search
