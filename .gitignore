@@ -26,3 +26,8 @@ Thumbs.db
 # Test files
 test*.py
 *test.py
+
+# Chainlit files
+chainlit.md
+.files/
+.chainlit/
