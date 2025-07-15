@@ -17,6 +17,7 @@ serpapi
 # Environment and utilities
 python-dotenv
 typing-extensions
+gradio
 
 # # Optional: For local development
 # ipython
