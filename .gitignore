@@ -26,8 +26,12 @@ Thumbs.db
 # Test files
 test*.py
 *test.py
+app*.py
+*app.py
 
 # Chainlit files
 chainlit.md
 .files/
 .chainlit/
+
+streamlit-app/.env

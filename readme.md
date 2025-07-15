@@ -38,11 +38,6 @@ Get your API keys:
 
 ### 3. Run the Application
 
-#### Web UI (Recommended)
-```bash
-chainlit run app_with_ui.py
-```
-Then open your browser to `http://localhost:8000`
 
 #### Console Mode
 ```bash
@@ -211,9 +206,4 @@ params = {
 2. **Response Time**: SERP API calls may take 3-5 seconds
 
 
-## Deployment Options
 
-### Local Development
-```bash
-chainlit run app_with_ui.py
-```
