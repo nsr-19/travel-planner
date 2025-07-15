@@ -2,7 +2,7 @@
   "dependencies": ["."],
   "graphs": {
     "travel_agent": {
-      "path": "travel_agent.py",
+      "path": "travel_agent.py:app",
       "variable": "app.workflow"
     }
   },
