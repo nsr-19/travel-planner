@@ -41,7 +41,7 @@ Get your API keys:
 
 #### Console Mode
 ```bash
-python app.py
+python travel_agent.py
 ```
 
 ## Usage Examples
